@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "findemail"
+version = "1.0.0"
+description = "findemail api library for Python 3"
+authors = [
+    {name = "Findemailio"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://findemail.io"
+Documentation = "https://findemail.io/docs"
+Repository = "https://github.com/Findemailio/findemail-python"
+Issues = "https://github.com/Findemailio/findemail-python/issues"

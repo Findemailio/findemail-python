@@ -1,0 +1,8 @@
+# Builds and testing
+__pycache__/
+/dist/
+/build/
+/*.egg-info/
+
+# Example file for test
+example.py
